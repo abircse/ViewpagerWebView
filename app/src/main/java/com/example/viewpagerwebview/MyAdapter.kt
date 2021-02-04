@@ -39,7 +39,7 @@ class MyAdapter(private var context: Context, private val myweblist: ArrayList<M
         webView.loadUrl(weburl)
 
         // add view to container
-        container.addView(views,position)
+        container.addView(views)
 
         return views
     }
